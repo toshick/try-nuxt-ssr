@@ -1,0 +1,9 @@
+{
+  "_hash": "gMN2Fgz6s3",
+  "project": {
+    "rootDir": "/Users/toshick/go/src/github.com/toshick/try-nuxt-ssr/tryssr"
+  },
+  "versions": {
+    "nuxt": "3.7.4"
+  }
+}
