@@ -106,7 +106,6 @@ declare global {
   const useModel: typeof import('../../node_modules/.pnpm/vue@3.3.4/node_modules/vue')['useModel']
   const useNuxtApp: typeof import('../../node_modules/.pnpm/nuxt@3.7.4/node_modules/nuxt/dist/app')['useNuxtApp']
   const useNuxtData: typeof import('../../node_modules/.pnpm/nuxt@3.7.4/node_modules/nuxt/dist/app')['useNuxtData']
-  const useNuxtDevTools: typeof import('../../node_modules/.pnpm/@nuxt+devtools@1.0.0-beta.0_nuxt@3.7.4_vite@4.4.11/node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools')['useNuxtDevTools']
   const useRequestEvent: typeof import('../../node_modules/.pnpm/nuxt@3.7.4/node_modules/nuxt/dist/app')['useRequestEvent']
   const useRequestFetch: typeof import('../../node_modules/.pnpm/nuxt@3.7.4/node_modules/nuxt/dist/app')['useRequestFetch']
   const useRequestHeaders: typeof import('../../node_modules/.pnpm/nuxt@3.7.4/node_modules/nuxt/dist/app')['useRequestHeaders']
@@ -246,7 +245,6 @@ declare module 'vue' {
     readonly useModel: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.3.4/node_modules/vue')['useModel']>
     readonly useNuxtApp: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.7.4/node_modules/nuxt/dist/app')['useNuxtApp']>
     readonly useNuxtData: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.7.4/node_modules/nuxt/dist/app')['useNuxtData']>
-    readonly useNuxtDevTools: UnwrapRef<typeof import('../../node_modules/.pnpm/@nuxt+devtools@1.0.0-beta.0_nuxt@3.7.4_vite@4.4.11/node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools')['useNuxtDevTools']>
     readonly useRequestEvent: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.7.4/node_modules/nuxt/dist/app')['useRequestEvent']>
     readonly useRequestFetch: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.7.4/node_modules/nuxt/dist/app')['useRequestFetch']>
     readonly useRequestHeaders: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.7.4/node_modules/nuxt/dist/app')['useRequestHeaders']>
@@ -380,7 +378,6 @@ declare module '@vue/runtime-core' {
     readonly useModel: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.3.4/node_modules/vue')['useModel']>
     readonly useNuxtApp: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.7.4/node_modules/nuxt/dist/app')['useNuxtApp']>
     readonly useNuxtData: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.7.4/node_modules/nuxt/dist/app')['useNuxtData']>
-    readonly useNuxtDevTools: UnwrapRef<typeof import('../../node_modules/.pnpm/@nuxt+devtools@1.0.0-beta.0_nuxt@3.7.4_vite@4.4.11/node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools')['useNuxtDevTools']>
     readonly useRequestEvent: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.7.4/node_modules/nuxt/dist/app')['useRequestEvent']>
     readonly useRequestFetch: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.7.4/node_modules/nuxt/dist/app')['useRequestFetch']>
     readonly useRequestHeaders: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.7.4/node_modules/nuxt/dist/app')['useRequestHeaders']>
