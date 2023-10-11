@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build && mv .nuxt ../",
+    "build": "nuxt build && mv .nuxt ../ && mv .netlify ../",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
