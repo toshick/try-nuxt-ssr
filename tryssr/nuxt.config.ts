@@ -4,6 +4,6 @@ export default defineNuxtConfig({
   modules: ['nuxt-og-image'],
   css: ['~/assets/global.css'],
   nitro: {
-    preset: 'node-server',
+    preset: 'netlify',
   },
 });
