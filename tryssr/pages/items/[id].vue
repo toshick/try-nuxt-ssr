@@ -9,6 +9,9 @@
 
 <script setup lang="ts">
   const route = useRoute();
-
   const { id } = route.params;
+  defineOgImage({
+    component: 'ItemDetail',
+    title: `Item Detail ${id}`,
+  });
 </script>
